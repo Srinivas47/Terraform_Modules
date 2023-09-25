@@ -6,7 +6,7 @@ variable "environment" {}
 # variables for the vpc
 variable "roboshop_vpc" {}
 variable "vpc_cidr" {}
-variable "" {}
+
 
 # variables for the igw
 variable "aws_internet_gateway" {}
