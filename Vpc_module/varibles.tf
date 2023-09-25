@@ -1,7 +1,11 @@
 # variables for the environment
 variable "region" {}
-variable "Project-name" {}
-variable "environment" {}
+variable "Project-name" {
+    default = "roboshop"
+}
+variable "environment" {
+    default = "production"
+}
 
 # variables for the vpc
 variable "roboshop_vpc" {}
